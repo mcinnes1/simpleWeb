@@ -1,0 +1,13 @@
+<h1> Welcome to simpleweb</h1>
+
+<p>test web page</p>
+
+<p>My name is {{ name }}</p>
+<p>{{ stuff|safe }}</p>
+
+{% for insts in inst %}
+	{% if insts == 'Guitar' %}
+		{{ insts + ' is great' }}<br/>
+	{% endif %}
+	{{ insts }}<br/>
+{% endfor %}
