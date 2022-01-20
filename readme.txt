@@ -30,3 +30,8 @@ $ git config --global alias.co checkout
 $ git init
 
 
+# --------------- Push existing rep to git
+…or push an existing repository from the command line
+git remote add origin https://github.com/mcinnes1/SpringfieldApp.git
+git branch -M main
+git push -u origin main
